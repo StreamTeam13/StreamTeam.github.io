@@ -1,0 +1,41 @@
+
+.main{
+    color: white;
+    width: 710px;
+    margin: 0px auto;
+    border: 5px solid black;
+}
+.header{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 120px;
+   border-bottom: 5px solid black;
+}
+.photo{
+    width: 450px;
+    height: 500px;
+    float: left;
+    border-right: 5px solid black;
+ }
+.text{
+    width: 255px;
+    height: 500px;
+    float: right;
+    text-indent: 20px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    clear: both;
+    border-top: 5px solid black;
+}
+.text, .photo{background: #222222}
+.header, .footer{background: #FF7777}
+
+
+/* body {
+    background-image: url("de78ac9852035e3654d9ca52ad658b95.jpg");
+} */
